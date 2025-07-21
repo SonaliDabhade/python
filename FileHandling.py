@@ -1,10 +1,10 @@
 # Write data
-# file = open("data.txt","w")
-# file.write("New data ")
+#file = open("data.txt","w")
+#file.write("New data ")
 
 # Append data
-# file = open("data.txt","a")
-# file.write("New data ")
+#file = open("data.txt","a")
+#file.write("New data ")
 
 # Read data
 # file = open("data.txt","r")
@@ -21,19 +21,19 @@
 # print(file.read())
 
 # with open syntax 
-# with open("data.txt" , "r+") as file:
-#     print("Old Data : ",file.read())
-#     file.write("Added New data here\n")
+#with open("data.txt" , "r+") as file:
+#    print("Old Data : ",file.read())
+#    file.write("Added New data here\n")
 
-# file.write("Added New data here\n")
+#file.write("Added New data here\n")
 
 
 
-# read using for loop
-# file = open("data.txt","r")
+#read using for loop
+#file = open("data.txt","r")
 
-# for i in file:
-#     print(i)
+#for i in file:
+#    print(i)
 
 
 
