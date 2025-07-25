@@ -63,13 +63,13 @@ def viewStudents():
 
 
 print("------------------------Student Management System------------------------")
-# print()
-# time.sleep(1)
+print()
+time.sleep(1)
 print("                   Welcome to Student Management System                   ")
-# print()
-# time.sleep(1)
+print()
+time.sleep(1)
 print("            Please Select Which Operation you want to perform            ")
-# time.sleep(1)
+time.sleep(1)
 
 
 
@@ -93,7 +93,7 @@ while True:
         viewStudents()
     elif option ==5:
         print("------------------------Thank You for using------------------------")
-        # time.sleep(1)
+        time.sleep(1)
         break
     else:
         print("Invalid Choice Please Try Again...")
