@@ -1,4 +1,10 @@
 class Account:
+    def __init__(self,acc_no,name,balence):
+        self.acc_no=acc_no
+        self.name = name
+        self.balence = balence
+        print("Bank Account Created ")
+
     def createBankAcc(self,acc_no,name,balence):
         self.acc_no=acc_no
         self.name = name
@@ -23,13 +29,16 @@ class Account:
         self.balence+=amt
         print(f"Amount of Rs.{amt} Deposited successfully ")
 
-a1 = Account()
-a1.createBankAcc(1001,"Jhon",1000)
+a1 = Account(1001,"Jhon",1000)
+a2 = Account(1002,"Jane",2000)
+# a1.createBankAcc(1001,"Jhon",1000)
 
+a1.showDetails()
 a1.showDetails()
 
 a1.depositCash()
-a1.showDetails()
+a2.showDetails()
+
 a1.withdrawCash()
 a1.showDetails()
 
